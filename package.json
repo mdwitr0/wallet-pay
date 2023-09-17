@@ -1,7 +1,12 @@
 {
-  "name": "vite-vanilla-ts-lib-starter",
-  "private": true,
-  "version": "0.0.2",
+  "name": "telegram-wallet-pay",
+  "private": false,
+  "version": "0.0.1",
+  "description": "Client library for Telegram Wallet Pay",
+  "author": {
+    "name": "Evgenii Fedoriachenko",
+    "url": "https://github.com/mdwitr0"
+  },
   "main": "./dist/vite-vanilla-ts-lib-starter.cjs",
   "module": "./dist/vite-vanilla-ts-lib-starter.mjs",
   "exports": {

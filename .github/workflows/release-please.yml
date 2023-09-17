@@ -4,6 +4,12 @@ on:
       - main
 name: release-please
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: npm test
   release-please:
     runs-on: ubuntu-latest
     steps:

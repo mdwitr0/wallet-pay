@@ -1,6 +1,6 @@
 /// <reference types="vitest" />
 import path from "path";
-import { defineConfig } from "vite";
+import {defineConfig} from "vite";
 import packageJson from "./package.json";
 
 const getPackageName = () => {
@@ -33,7 +33,5 @@ module.exports = defineConfig({
       fileName: (format) => fileName[format],
     },
   },
-  test: {
-
-  }
+  test: {}
 });

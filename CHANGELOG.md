@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/mdwitr0/telegram-wallet-pay/compare/telegram-wallet-pay-v1.0.0...telegram-wallet-pay-v1.0.1) (2023-09-18)
+
+
+### Bug Fixes
+
+* update formatting & not valid versions ([6cefbde](https://github.com/mdwitr0/telegram-wallet-pay/commit/6cefbded32935165ac79edd42be15e24e115044f))
+* update formatting & not valid versions ([a5455a1](https://github.com/mdwitr0/telegram-wallet-pay/commit/a5455a1294a816859daa79b0c2ba7b0e2f0a3b21))
+
 ## 1.0.0 (2023-09-18)
 
 

@@ -7,15 +7,15 @@
     "name": "Evgenii Fedoriachenko",
     "url": "https://github.com/mdwitr0"
   },
-  "main": "./dist/vite-vanilla-ts-lib-starter.cjs",
-  "module": "./dist/vite-vanilla-ts-lib-starter.mjs",
+  "main": "./dist/wallet-pay.cjs",
+  "module": "./dist/wallet-pay.mjs",
   "exports": {
     ".": {
-      "require": "./dist/vite-vanilla-ts-lib-starter.cjs",
-      "import": "./dist/vite-vanilla-ts-lib-starter.mjs"
+      "require": "./dist/wallet-pay.cjs",
+      "import": "./dist/wallet-pay.mjs"
     }
   },
-  "types": "./dist/vite-vanilla-ts-lib-starter.d.ts",
+  "types": "./dist/wallet-pay.d.ts",
   "scripts": {
     "dev": "vite --host",
     "build": "rimraf dist && tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts",

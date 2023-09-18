@@ -59,7 +59,7 @@ export class WalletPay {
       OrderPreviewQueryParams,
       CreateOrderRequest
     >({
-      path: `/order`,
+      path: `/order/preview`,
       method: "GET",
       params: { id },
     });

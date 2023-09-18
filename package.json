@@ -15,6 +15,7 @@
       "import": "./dist/wallet-pay.mjs"
     }
   },
+  "license": "MIT",
   "types": "./dist/wallet-pay.d.ts",
   "scripts": {
     "dev": "vite --host",

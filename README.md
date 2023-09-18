@@ -5,7 +5,7 @@ It's a client for [Wallet Pay](https://wallet.tg) API written in TypeScript.
 ## Installation
 
 ```bash
-npm install @mdwitr0/telegram-wallet-pay
+npm install wallet-pay
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install @mdwitr0/telegram-wallet-pay
 Create a new instance of `WalletPay` class and pass the token as a parameter. You can get the token on [Wallet Pay](https://wallet.tg).
 
 ```typescript
-import { WalletPay } from "@mdwitr0/telegram-wallet-pay";
+import { WalletPay } from "wallet-pay";
 
 const wallet = new WalletPay("Store token");
 ```
@@ -94,7 +94,7 @@ export interface MoneyAmount {
 </details>
 
 ```typescript
-import { WalletPay } from "@mdwitr0/telegram-wallet-pay";
+import { WalletPay } from "wallet-pay";
 
 async function main() {
   const wallet = new WalletPay("Store token");
@@ -230,7 +230,7 @@ export enum OrderStatusEnum {
 Get order by id using `getOrderPreview` method. You can pass the `orderId` as a parameter.
 
 ```ts
-import { WalletPay } from "@mdwitr0/telegram-wallet-pay";
+import { WalletPay } from "wallet-pay";
 
 async function main() {
   const wallet = new WalletPay("Store token");

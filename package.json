@@ -1,7 +1,7 @@
 {
   "name": "telegram-wallet-pay",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Client library for Telegram Wallet Pay",
   "author": {
     "name": "Evgenii Fedoriachenko",

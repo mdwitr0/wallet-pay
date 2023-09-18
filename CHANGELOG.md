@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/mdwitr0/telegram-wallet-pay/compare/wallet-pay-v1.1.0...wallet-pay-v1.1.1) (2023-09-18)
+
+
+### Bug Fixes
+
+* Error: Package subpath './dist/wallet-pay' is not defined by "exports" ([410bda9](https://github.com/mdwitr0/telegram-wallet-pay/commit/410bda9297462b68c5c385a3d4e7c34f281505ba))
+
 ## [1.1.0](https://github.com/mdwitr0/telegram-wallet-pay/compare/wallet-pay-v1.0.2...wallet-pay-v1.1.0) (2023-09-18)
 
 

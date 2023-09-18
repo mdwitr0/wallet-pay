@@ -304,6 +304,14 @@ export interface OrderPreview {
    */
   directPayLink: string;
 }
+export interface OrderPreviewQueryParams {
+  /**
+   * Order id
+   * @type {string}
+   * @memberof OrderPreviewQueryParams
+   */
+  id: string;
+}
 /**
  *
  * @export
@@ -392,6 +400,7 @@ export interface OrderReconciliationListQueryParams {
    */
   count: number;
 }
+
 /**
  * Order status
  * @export

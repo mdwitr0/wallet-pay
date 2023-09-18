@@ -3,6 +3,7 @@ import {
   CreateOrderResponse,
   GetOrderReconciliationListResponse,
   OrderAmountResponse,
+  OrderPreviewQueryParams,
   OrderReconciliationListQueryParams,
 } from "./types";
 import { RequiredError } from "./errors";
@@ -53,9 +54,14 @@ export class WalletPay {
   public async getOrderPreview(id: string): Promise<CreateOrderResponse> {
     if (!id) throw new RequiredError("id is required");
 
-    return await this.request<CreateOrderResponse, never, CreateOrderRequest>({
-      path: `/order/${id}`,
+    return await this.request<
+      CreateOrderResponse,
+      OrderPreviewQueryParams,
+      CreateOrderRequest
+    >({
+      path: `/order`,
       method: "GET",
+      params: { id },
     });
   }
 

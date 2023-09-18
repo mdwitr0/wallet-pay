@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.3](https://github.com/mdwitr0/telegram-wallet-pay/compare/wallet-pay-v1.1.2...wallet-pay-v1.1.3) (2023-09-18)
+
+
+### Bug Fixes
+
+* not correct license ([b94f266](https://github.com/mdwitr0/telegram-wallet-pay/commit/b94f266c8b4c034eec561deb836f2505d82455f5))
+* **wallet-pay.ts:** change API endpoint path from `/order` to `/order/preview` ([0be1363](https://github.com/mdwitr0/telegram-wallet-pay/commit/0be1363b8af2f17059f1365187550bd03205dc67))
+
 ## [1.1.2](https://github.com/mdwitr0/telegram-wallet-pay/compare/wallet-pay-v1.1.1...wallet-pay-v1.1.2) (2023-09-18)
 
 

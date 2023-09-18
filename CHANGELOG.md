@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/mdwitr0/telegram-wallet-pay/compare/wallet-pay-v1.1.1...wallet-pay-v1.1.2) (2023-09-18)
+
+
+### Bug Fixes
+
+* **wallet-pay.ts:** update getOrderPreview method to use OrderPreviewQueryParams interface and pass id as a query parameter instead of path parameter ([44d0f75](https://github.com/mdwitr0/telegram-wallet-pay/commit/44d0f7533f23f41e1ebe0ad37ea9d271ab4a45de))
+
 ## [1.1.1](https://github.com/mdwitr0/telegram-wallet-pay/compare/wallet-pay-v1.1.0...wallet-pay-v1.1.1) (2023-09-18)
 
 

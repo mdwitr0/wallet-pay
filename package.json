@@ -1,5 +1,5 @@
 {
-  "name": "telegram-wallet-pay",
+  "name": "@mdwitr0/telegram-wallet-pay",
   "private": false,
   "version": "1.0.1",
   "description": "Client library for Telegram Wallet Pay",

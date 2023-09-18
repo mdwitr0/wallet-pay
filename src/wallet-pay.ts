@@ -14,32 +14,32 @@ export class WalletPay {
 
   /**
    * Create an order
-   * @param {CreateOrderRequest} body
+   * @param {CreateOrderRequest} order
    * @returns {Promise<CreateOrderResponse>}
    * @throws {RequiredError}
    * @memberof WalletPay
    * @see https://docs.wallet.tg/pay/#tag/Order/operation/create
    */
   public async createOrder(
-    body: CreateOrderRequest
+    order: CreateOrderRequest
   ): Promise<CreateOrderResponse> {
-    if (!body) throw new RequiredError("request is required");
-    if (!body.amount) throw new RequiredError("amount is required");
-    if (!body.amount.amount)
+    if (!order) throw new RequiredError("request is required");
+    if (!order.amount) throw new RequiredError("amount is required");
+    if (!order.amount.amount)
       throw new RequiredError("amount.amount is required");
-    if (!body.amount.currencyCode)
+    if (!order.amount.currencyCode)
       throw new RequiredError("amount.currencyCode is required");
-    if (!body.externalId) throw new RequiredError("externalId is required");
-    if (!body.timeoutSeconds)
+    if (!order.externalId) throw new RequiredError("externalId is required");
+    if (!order.timeoutSeconds)
       throw new RequiredError("timeoutSeconds is required");
-    if (!body.description) throw new RequiredError("description is required");
-    if (!body.customerTelegramUserId)
+    if (!order.description) throw new RequiredError("description is required");
+    if (!order.customerTelegramUserId)
       throw new RequiredError("customerTelegramUserId is required");
 
     return await this.request<CreateOrderResponse, never, CreateOrderRequest>({
       path: `/order`,
       method: "POST",
-      body,
+      body: order,
     });
   }
 

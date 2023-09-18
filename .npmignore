@@ -1,0 +1,8 @@
+examples/
+*.test.ts
+.coverage
+.husky
+.github
+.idea
+src
+CHANGELOG.md

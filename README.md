@@ -1,6 +1,11 @@
 # Wallet Pay client for TS/JS
 
-It's a client for [Wallet Pay](https://wallet.tg) API written in TypeScript.
+It's a client for [Wallet Pay](https://docs.wallet.tg/pay/) API written in TypeScript.
+
+<p align="center">
+  <img src="docs/image.png" width="1024">
+</p>
+
 
 ## Installation
 

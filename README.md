@@ -3,7 +3,7 @@
 It's a client for [Wallet Pay](https://docs.wallet.tg/pay/) API written in TypeScript.
 
 <p align="center">
-  <img src="docs/image.png" width="1024">
+  <img src="https://kinopoisk.dev/assets/wallet-pay-image.png" width="1024">
 </p>
 
 

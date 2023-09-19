@@ -1,12 +1,7 @@
 {
   "name": "wallet-pay",
-  "private": false,
   "version": "1.1.3",
   "description": "Client library for Telegram Wallet Pay",
-  "author": {
-    "name": "Evgenii Fedoriachenko",
-    "url": "https://github.com/mdwitr0"
-  },
   "main": "./dist/wallet-pay.cjs",
   "module": "./dist/wallet-pay.mjs",
   "exports": {
@@ -15,7 +10,33 @@
       "import": "./dist/wallet-pay.mjs"
     }
   },
+  "author": {
+    "name": "Evgenii Fedoriachenko",
+    "url": "https://github.com/mdwitr0"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdwitr0/wallet-pay"
+  },
+  "bugs": {
+    "url": "https://github.com/mdwitr0/wallet-pay/issues"
+  },
+  "keywords": [
+    "telegram wallet pay",
+    "wallet pay",
+    "wallet pay sdk",
+    "wallet pay client",
+    "wallet pay api",
+    "wallet pay typescript",
+    "wallet pay javascript",
+    "wallet pay nodejs",
+    "wallet pay node",
+    "wallet pay js",
+    "wallet pay ts",
+    "wallet pay telegram"
+  ],
+  "homepage": "https://github.com/mdwitr0/wallet-pay#readme",
   "types": "./dist/wallet-pay.d.ts",
   "scripts": {
     "dev": "vite --host",

@@ -1,6 +1,6 @@
 {
   "name": "wallet-pay",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Client library for Telegram Wallet Pay",
   "main": "./dist/wallet-pay.cjs",
   "module": "./dist/wallet-pay.mjs",
